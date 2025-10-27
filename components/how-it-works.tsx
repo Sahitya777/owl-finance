@@ -39,16 +39,16 @@ export function HowItWorks() {
             <div key={index} className="relative">
               <div className="p-6 rounded-2xl bg-card border border-border h-full flex flex-col">
                 <div className="flex items-start justify-between mb-4">
-                  <div className="text-5xl font-bold text-primary/30">{step.number}</div>
-                  <div className="text-xs font-semibold px-2 py-1 rounded-full bg-primary/20 text-primary">
+                  <div className="text-5xl font-bold text-[#FECD6D]/30">{step.number}</div>
+                  <div className="text-xs font-semibold px-2 py-1 rounded-full bg-[#FECD6D]/20 text-[#FECD6D]">
                     {step.leverage}x
                   </div>
                 </div>
                 <h3 className="text-xl font-semibold text-foreground mb-2">{step.title}</h3>
-                <p className="text-foreground/60 flex-grow">{step.description}</p>
+                <p className="text-foreground/60 grow">{step.description}</p>
               </div>
               {index < steps.length - 1 && (
-                <div className="hidden md:block absolute top-1/2 -right-3 w-6 h-0.5 bg-gradient-to-r from-primary to-transparent"></div>
+                <div className="hidden md:block absolute top-1/2 -right-3 w-6 h-0.5 bg-linear-to-r from-[#FECD6D] to-transparent"></div>
               )}
             </div>
           ))}
@@ -60,14 +60,14 @@ export function HowItWorks() {
               <h3 className="text-lg font-semibold text-foreground mb-2">Base Leverage</h3>
               <p className="text-foreground/60">
                 Connect your wallet and get instant access to{" "}
-                <span className="text-primary font-semibold">3x leverage</span> for trading.
+                <span className="text-[#FECD6D] font-semibold">3x leverage</span> for trading.
               </p>
             </div>
             <div>
               <h3 className="text-lg font-semibold text-foreground mb-2">Enhanced Leverage</h3>
               <p className="text-foreground/60">
                 Share your Binance data via Opacity for verification and unlock{" "}
-                <span className="text-primary font-semibold">5x leverage</span> with enhanced trust and fail-safe
+                <span className="text-[#FECD6D] font-semibold">5x leverage</span> with enhanced trust and fail-safe
                 mechanisms.
               </p>
             </div>

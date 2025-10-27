@@ -11,7 +11,7 @@ export function Footer() {
               href="https://opacity.io"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-primary hover:text-primary/80 transition font-semibold text-sm"
+              className="text-[#FECD6D] hover:text-[#FECD6D]/80 transition font-semibold text-sm"
             >
               Opacity
             </a>

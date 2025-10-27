@@ -48,7 +48,7 @@ export function Features() {
           {features.map((feature, index) => (
             <div
               key={index}
-              className="p-6 rounded-2xl bg-background border border-border hover:border-primary/50 transition group"
+              className="p-6 rounded-2xl bg-background border border-border hover:border-[#FECD6D] transition group"
             >
               <div className="text-4xl mb-4 group-hover:scale-110 transition">{feature.icon}</div>
               <h3 className="text-xl font-semibold text-foreground mb-2">{feature.title}</h3>
