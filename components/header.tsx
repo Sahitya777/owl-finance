@@ -51,6 +51,13 @@ export function Header() {
           >
             How It Works
           </a>
+          <a
+            href="https://owl-finance.gitbook.io/owl-finance-docs/"
+            className="block text-foreground/70 hover:text-foreground"
+            target="_blank"
+          >
+            Docs
+          </a>
         </div>
 
         <div className="hidden md:flex items-center gap-4">
@@ -88,6 +95,13 @@ export function Header() {
               className="block text-foreground/70 hover:text-foreground"
             >
               About
+            </a>
+            <a
+              href="https://owl-finance.gitbook.io/owl-finance-docs/"
+              className="block text-foreground/70 hover:text-foreground"
+              target="_blank"
+            >
+              Docs
             </a>
             <div className="flex gap-2 pt-4">
               <Link href="https://owlfi.vercel.app" target="_blank">
